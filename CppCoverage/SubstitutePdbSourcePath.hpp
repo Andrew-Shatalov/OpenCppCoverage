@@ -33,7 +33,7 @@ namespace CppCoverage
 		}
 
 		//---------------------------------------------------------------------
-		SubstitutePdbSourcePath(SubstitutePdbSourcePath&) = default;
+		SubstitutePdbSourcePath(const SubstitutePdbSourcePath& other) = default;
 		SubstitutePdbSourcePath(SubstitutePdbSourcePath&&) = default;
 
 		//---------------------------------------------------------------------
